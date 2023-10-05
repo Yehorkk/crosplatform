@@ -1,0 +1,14 @@
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\bin\Debug\net6.0\Policeman.exe
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\bin\Debug\net6.0\Policeman.deps.json
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\bin\Debug\net6.0\Policeman.runtimeconfig.json
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\bin\Debug\net6.0\Policeman.dll
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\bin\Debug\net6.0\Policeman.pdb
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.AssemblyInfoInputs.cache
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.AssemblyInfo.cs
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.csproj.CoreCompileInputs.cache
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.dll
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\refint\Policeman.dll
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.pdb
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\Policeman.genruntimeconfig.cache
+D:\Studing\Crossplatforming\crosplatform\Lab3\Policeman\Policeman\obj\Debug\net6.0\ref\Policeman.dll
