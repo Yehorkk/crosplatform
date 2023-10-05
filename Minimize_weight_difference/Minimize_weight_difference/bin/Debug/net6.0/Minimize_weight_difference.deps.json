@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Minimize_weight_difference/1.0.0": {
+        "runtime": {
+          "Minimize_weight_difference.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Minimize_weight_difference/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
