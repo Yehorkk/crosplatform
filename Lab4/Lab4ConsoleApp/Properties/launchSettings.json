@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab4App": {
+      "commandName": "Project",
+      "commandLineArgs": "run lab1 -I ./IOFiles/input.txt -o ./IOFiles/output.txt"
+    }
+  }
+}
