@@ -1,0 +1,39 @@
+﻿@model Lab5WebApp.Models.LabDataModel
+
+<div style="margin-top:80px">
+    <h2>Лабораторна робота 1</h2>
+    <h3>Завдання:</h3>
+    <p>
+        Вариант 58
+        У Вас есть N камней с массами W1, W2 , … WN. Требуется разложить камни на 2 кучки так,
+        чтобы разница масс этих кучек была минимальной.
+        Входные данные
+        В первой строке входного файла INPUT.TXT записано число N – количество камней (1 ≤ N ≤ 18).
+        Во второй строке через пробел перечислены массы камней W1, W2 , … WN (1 ≤ Wi ≤ 105).
+        Выходные данные
+        В единственную строку выходного файла OUTPUT.TXT нужно вывести одно
+        неотрицательное целое число – минимально возможную разницу между массами
+        двух кучек.
+    </p>
+    <div>
+        <h4>Приклад вхідних данних:</h4>
+<pre>
+5</pre>
+        <h4>Приклад данних після роботи програми:</h4>
+        <pre>5 8 13 27 14</pre>
+    </div>
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Lab1" asp-action="Lab1">
+        <div class="row">
+            <div class="form-group container mt-2">
+                <h4>Вхідні дані (шлях):</h4>
+                <input id="inputText" class="form-control" type="text" asp-for="Input"></input>
+                <h4>Вихідні дані (шлях):</h4>
+                <input id="inputText" class="form-control" type="text" asp-for="Output"></input>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-2">Виконати</button>
+    </form>
+    
+</div>

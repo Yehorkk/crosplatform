@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div style="margin-top: 80px;" class="row">
+    <div class="col-md-12" align="center">
+        <h1 class="mt-10">Лабораторна робота 5. Виконання MVC ASP.NET</h1>
+
+        <style>
+            
+        </style>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="d-flex flex-row flex-wrap gap-2">
+                <h3>Лабораторні роботи:</h3>
+
+                <button class="btn btn-light text-white mt-2"><a asp-area="" asp-controller="Lab1" asp-action="Lab1" class="text-white-50">Лабораторна робота 1</a></button>
+                <button class="btn btn-light text-white mt-2"><a asp-area="" asp-controller="Lab2" asp-action="Lab2" class="text-white-50">Лабораторна робота 2</a></button>
+                <button class="btn btn-light text-white mt-2"><a asp-area="" asp-controller="Lab3" asp-action="Lab3" class="text-white-50">Лабораторна робота 3</a></button>
+            </div>
+        }
+        else
+        {
+            <h3 style="color:orangered">Необхідно увійти до аккаунту...</h3>
+        }
+    </div>
+</div>
