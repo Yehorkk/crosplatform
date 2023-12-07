@@ -1,0 +1,41 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/bookworm64"
+  config.vm.box_check_update = false
+
+  config.vm.network "forwarded_port", guest: 4040, host: 4040
+  config.vm.network "forwarded_port", guest: 6060, host: 6060
+
+ 
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "2048"
+    vb.cpus = 2
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get upgrade
+
+    sudo apt-get install -y nodejs
+    sudo apt-get install -y npm
+
+    sudo apt-get update
+
+    wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    sudo dpkg -i packages-microsoft-prod.deb
+    rm packages-microsoft-prod.deb
+
+    sudo apt-get update && sudo apt-get install -y dotnet-sdk-7.0
+
+    sudo apt-get install -y git
+
+    git clone https://github.com/yura-kiv/crossplatform-uni.git
+
+    cd crossplatform-uni/Lab13API
+    dotnet run &
+
+    cd ../Lab13React
+    npm install
+    npm start
+  SHELL
+end
